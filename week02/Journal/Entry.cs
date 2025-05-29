@@ -10,7 +10,6 @@ class Entry
     {
         PromptGenerator prompt = new PromptGenerator();
         _date = DateTime.Now.ToString("MM/dd/yyyy");
-        prompt.Prompt();
         Console.WriteLine("Enter something");
         Console.Write(">>");
         _entryText = Console.ReadLine();
