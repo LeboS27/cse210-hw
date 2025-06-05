@@ -1,4 +1,4 @@
-abstract class MindfulnessActivity(string name, string description)
+abstract class Activity(string name, string description)
 {
     protected string _name = name;
     protected string _description = description;

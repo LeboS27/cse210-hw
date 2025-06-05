@@ -17,18 +17,18 @@ class Program
             Console.Write("Select an option: ");
 
             string choice = Console.ReadLine();
-            MindfulnessActivity activity = null;
+            Activity activity1 = null;
 
             switch (choice)
             {
                 case "1":
-                    activity = new BreathingActivity();
+                    activity1 = new BreathingActivity();
                     break;
                 case "2":
-                    activity = new ReflectingActivity();
+                    activity1 = new ReflectingActivity();
                     break;
                 case "3":
-                    activity = new ListingActivity();
+                    activity1 = new ListingActivity();
                     break;
                 case "4":
                     running = false;
@@ -37,7 +37,7 @@ class Program
                     continue;
             }
 
-            activity.Start();
+            activity1.Start();
         }
     }
 }

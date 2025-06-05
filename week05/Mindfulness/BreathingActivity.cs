@@ -1,6 +1,5 @@
 using System;
-
-public class BreathingActivity : MindfulnessActivity
+class BreathingActivity : Activity
 {
     public BreathingActivity() : base("Breathing Activity", "This activity will help you relax by guiding you through slow breathing.") { }
 

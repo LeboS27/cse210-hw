@@ -1,6 +1,6 @@
 using System;
 
-public class ListingActivity : MindfulnessActivity
+class ListingActivity : Activity
 {
     private string[] _prompts = {
         "Who are people that you appreciate?",

@@ -1,6 +1,6 @@
 using System;
 
-public class ReflectingActivity : MindfulnessActivity
+class ReflectingActivity : Activity
 {
     private string[] _prompts = {
         "Think of a time when you stood up for someone else.",
