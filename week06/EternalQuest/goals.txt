@@ -1,0 +1,4 @@
+0
+SimpleGoal:Workout everyday,Exercise a lot,150,False
+EternalGoal:Study Scripture,Minimum 20 minutes aday,200
+ChecklistGoal:Health,Overrall well being,90,10000,7,0
